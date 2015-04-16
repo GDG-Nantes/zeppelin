@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "DevFest Nantes 2015"
 email: "bureau@gdgnantes.com"
 description: "GDG DevFest is a set of events all around the world"
-baseurl: "/zeppelin"
+baseurl: "/devfest"
 url: "https://gdg-x.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-35116426-1"
@@ -44,15 +44,15 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 navigationLinks:
  - {permalink: "/", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/schedule/", text: "Agenda"}
  - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
+ - {permalink: "/team/", text: "L'équipe"}
+ - {permalink: "/logistics/", text: "En Pratique"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://bit.ly/dfua-c4p", text: "Devenez un speaker"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://bit.ly/dfua-c4p", text: "Devenez un speaker"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -67,9 +67,9 @@ heroButtons:
 # About Block
 aboutTitle: "A propos des DevFest"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Conference", image: "conference.jpg", text: "Plus de 28 conférences (1h) présentées par des speakers renommées, des Googlers évoquant leurs technologies favorites. Des sessions sont également animées par les sponsors Platiniums." }
+ - {title: "Networking", image: "workshop.jpg", text: "Des moments de networking sont au coeur de cet événement et vous permettent de rencontrer et discuter avec les acteurs du numérique et avec les experts présents." }
+ - {title: "Démos", image: "hackathon.jpg", text: "Des stands de démonstrations technologiques et innovations (Myo, Leap Motion, Google Glass...), proposés au sponsors (niveau Gold et Plus) mais également aux start-ups ou simples développeurs souhaitant partager et présenter leur produit." }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -89,7 +89,7 @@ rockstarSpeakersTitle: "Rockstar speakers"
 rockstarSpeakersButtonText: "Voir tous les speakers"
 
 # Location Block
-locationBlockTitle: "Location"
+locationBlockTitle: "Localisation"
 eventLocationName: "Cité des congrès"
 eventLocationLink: "http://www.lacite-nantes.fr/fr/index.html"
 eventStreetAddress: "Quai Ferdinand Favre"
@@ -105,7 +105,7 @@ mapCenterCoordinates: "47.212966, -1.542565"
 mapMobileCenterCoordinates: "47.212966, -1.542565"
 
 # Venue Block
-venueBlockTitle: "Venue"
+venueBlockTitle: "L'espace"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
@@ -120,19 +120,19 @@ twitterHashTag: "devfest"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-organizersTitle: "Organizers"
+organizersTitle: "Organisateurs"
 partnersTitle: "Sponsors"
 partnersC4sponsorsButton: "Devenir un sponsor"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
-subscribeTitle: "Subscribe for updates"
+subscribeTitle: "Inscrivez vous à la newsLetter"
 subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+subscribeInfo: "Les inscriptions commencerons début juin. Restez connecté ! "
 
 # Tickets Block
-ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsTitle: "Prixs"
+ticketsInfo: "Les billets vous donnent un accès complet aux conférences, au petit déjeuner, au repas ainsi qu'à l'After party."
 ticketsOffers:
  -
   name: "Pass Académique"
@@ -142,7 +142,7 @@ ticketsOffers:
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Acheter maintenant"
   additionalInfo: "Seul les personnes munies d'un justificatif en cours de validité seront acceptés le jour J."
-  ticketContentList: ["Etudiants", "Enseignants", "Justificatif à présenter"]
+  ticketContentList: ["Etudiants", "Enseignants"]
   validFrom: "2015-06-15T10:00"
   validThrough: "2015-11-06T23:59"
  -
@@ -154,7 +154,7 @@ ticketsOffers:
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Acheter maintenant"
   additionalInfo: "Seul le crédit temps du CPF sera pris en compte. Le prix du billet d'entrée ne sera pas rembourser dans le cadre du CPF"
-  ticketContentList: ["Elligible au CPF"]
+  ticketContentList: ["Elligible au CPF", "Pass standard"]
   validFrom: "2015-06-15T00:00"
   validThrough: "2015-11-06T23:59"
 #  disabled: true
@@ -167,7 +167,7 @@ socialLinks:
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
-  title: "Links"
+  title: "Liens"
   links:
    - {link: "http://gdgnantes.com", text: "GDG Nantes"}
    - {link: "https://developers.google.com", text: "Google Developers"}
@@ -181,7 +181,7 @@ footerBlocks:
    - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
-blogTitle: "Latest news"
+blogTitle: "Dernières news"
 blogCommentsEnabled: true
 discusShortName: "devfestua"
 
@@ -189,8 +189,8 @@ discusShortName: "devfestua"
 showSessions: true
 
 # Team Block
-teamBlockTitle: "About us"
-aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+teamBlockTitle: "A propos"
+aboutUs: "Les Google Developer Groups (GDGs) sont des groupes de développeurs intéressés par les technologies Google : GWT, Android, App Engine, les APIs Google, mais également les techno du Web comme HTML5, CSS3... Nous nous intéressons à tout type de techno que ce soit dans le domaine de la mobilité, du cloud ou du web. <br><br><h4>Le GDG Nantes</h4> <br>L’objectif du GDG Nantes est d’organiser des évènements de manière régulière : <ul><li>Conférences sur les technologies Google, Web ...</li><li>Des apéros ;) autour de sujets centraux afin de se rencontrer et boire un verre ensemble</li><li>Des concours (Hackathon...)</li></ul><br>Le GDG Nantes est également partenaire d’évènements nationaux ou d'autres communautés tels que les JUG."
 
 # Logistics Find Way Block
 findWayTitle: "Trouver votre chemin"
@@ -212,7 +212,6 @@ directionDetailsCards:
  - {title: "Depuis l'aéroport", information: "L'aéroport est situé à l'extérieur de la ville. Pour Accéder à la cité des congrès, vous pouvez utiliser les <a href='http://www.nantes.aeroport.fr/acces/navettes' target='_blank'>navettes</a> (20 min), taxis ou louer une voiture."}
  - {title: "Transports en commun", information: "En tramway, prenez la ligne 1 : station <strong>'Duchesse Anne - Château des Ducs de Bretagne'</strong> à une station de la gare TGV (sortie Nord) <br> En busway, prenez la ligne 4 du busway et déscendez à l'arrêt <strong>'Cité des congrès'</strong>"}
  - {title: "En voiture", information: "La Cité des Congrès étant en plein centre ville, nous préconisons aux automobilistes de se garer sur un parking relais tram ou un parking payant. <br> La Cité des Congrès propose un <a href='http://www.parkings-nantes.fr/fr/stationner' target='_blank'>parking payant</a> de 450 places.<br> Pour voir les disponibilités des parkings en temps réel : <a href='http://parking-nantes.com/' traget='_blank'>http://parking-nantes.com/</a> <br> Liste des parkings relais : <a href='https://www.tan.fr/adminsite/objetspartages/liste_fichiergw.jsp?OBJET=DOCUMENT&CODE=1232704326125&LANGUE=0' target='_blank'>carte.pdf</a> ou directement sur le site de la <a href='https://www.tan.fr/jsp/fiche_pagelibre.jsp?CODE=07774142&LANGUE=0' target='_blank'>Tan</a>"}
- - {title: "Hotels", information: "<strong>Hôtel Résid'Home </strong><br>3 allée Jacques Berque<br>44000 Nantes<br>Situé juste en face de la Cité des Congrès, le Residhome les Berges de la Loire vous propose des tarifs négociés avec le code « DevFest2014 »."}
 directionDetailsWideCards:
  -
   title: "Questions?"
@@ -220,10 +219,7 @@ directionDetailsWideCards:
    -
     title: "Hotels"
     links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+     - {link: "http://www.residhome.com/", text: "Résid Home (code de réduction DevFest2015)"}
    -
     title: "Registration"
     links:
